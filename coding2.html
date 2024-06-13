@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+
+
+	<h1>Belajar DOM Javascript</h1>
+</center>
+
+<img src="https://png.pngtree.com/png-clipart/20200713/ourlarge/pngtree-astronauts-flying-with-apollo-png-image_2307121.jpg" alt="" id="gambar" class="black" onclick="berubah()">
+<div id="boxes"></div>
+<div id="boxes"></div>
+<div id="boxes"></div>
+
+<ul>
+	<li>HTML</li>
+	<li>CSS</li>
+	<li>Javascript</li>
+	<div></div>
+</ul>
+
+
+
+<script type="text/javascript">
+// --------------- selector	 ---------------
+	document.getElementById('box1').innerHTML = "Sekolah Koding"
+
+	var boxes = document.getElementsByClassName('boxes')
+	boxes[0].innerHTML = "versi Terbaru 1 "
+	boxes[1].innerHTML = "versi Terbaru 2 "
+	boxes[2].innerHTML = "versi Terbaru 3 "
+
+	var list = document.getElementById('li')
+	list[0].innerHTML = "PHP"
+	list[1].innerHTML = "SASS"
+	list[2].innerHTML = "JQuery"
+
+	document.querySelectorAll('#boxes')[0].innerHTML = "KODING Koding"
+	document.querySelectorAll('.boxes')[0].innerHTML = "KODING Koding1"
+	document.querySelectorAll('ul div')[0].innerHTML = "KODING Koding"
+
+</script>
+
+
+</body>
+</html>

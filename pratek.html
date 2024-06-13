@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        line-height: 0;
+      }
+      body {
+        background-color: #ccc;
+        text-align: center;
+      }
+      .thumb {
+        width: 50%;
+        float: left;
+        border: 3px solid white;
+        box-sizing: border-box;
+      }
+      .thumb:hover {
+        opacity: 0.5;
+        cursor: pointer;
+      }
+      @keyframes fadeIn {
+        to {
+          opacity: 1;
+        }
+      }
+      .fade {
+        opacity: 0;
+        animation: fadeIn 0.5s forwards; /* fadeIn nama sesuai keyFrame */
+      }
+      .container {
+        width: 600px;
+        margin: 10px auto;
+        border: 5px solid white;
+        overflow: auto;
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <img src="img/tes1.jpg" alt="" class="jumbo" width="100%" />
+      <div class="thumbnail">
+        <img src="img/tes1.jpg" alt="" class="thumb" />
+        <img src="img/tes2.jpg" alt="" class="thumb" />
+        <img src="img/tes3.jpg" alt="" class="thumb" />
+      </div>
+    </div>
+    <script src="praktek.js"></script>
+  </body>
+</html>

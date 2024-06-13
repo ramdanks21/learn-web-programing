@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Dom SelectPion</title>
+    <style>
+      * {
+        border: 2px solid #dedede;
+        padding: 15px;
+        margin: 15px;
+      }
+      html {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        max-width: 600px;
+        margin: 30px auto;
+        font-family: sans-serif;
+        color: #333;
+      }
+      .kotak {
+        background-color: red;
+      }
+      .merah {
+        background-color: red;
+      }
+      .biru {
+        background-color: blue;
+      }
+      .hijau {
+        background-color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <button class="change">Click Me</button>
+    <input type="range" name="sMerah" max="255" min="1" />
+    <div class="kotak merah"></div>
+    <input type="range" name="sGreen" max="255" min="1" />
+    <div class="kotak hijau"></div>
+    <input type="range" name="sBlue" max="255" min="1" />
+    <div class="kotak biru"></div>
+    <script src="dombaru.js"></script>
+  </body>
+</html>

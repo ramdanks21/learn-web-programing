@@ -1,0 +1,23 @@
+{
+  "editor.detectIndentation": true,
+  "editor.guides.highlightActiveIndentation": true,
+  "editor.guides.indentation": false,
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": false,
+  "editor.autoClosingBrackets": "languageDefined",
+  "highlight-matching-tag.highlightFromContent": false,
+  "highlight-matching-tag.highlightFromAttributes": true,
+  "highlight-matching-tag.highlightFromName": true,
+  "highlight-matching-tag.styles": {
+    "opening": {
+      "name": {
+        "highlight": "rgba(180, 20, 80, 0.3)"
+      },
+      "right": {
+        "surround": "#155FFA"
+      }
+    }
+  },
+  "highlight-matching-tag.enabled": true,
+  "highlight-matching-tag.showPath": true,
+  "highlight-matching-tag.showRuler": true
+}
