@@ -56,3 +56,9 @@ console.log(fruits1[0], fruits1[1]);
 for (const x of fruits1) {
   console.log(x);
 }
+
+setInterval(() => {
+  console.log("hai");
+}, 5000);
+// setinterval keluar dan terus keluar setiap 5 deti
+// settimeout keluar dan berhenti keluar setiap 5 deti
